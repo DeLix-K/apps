@@ -15,7 +15,7 @@
     </header>
 
     <h1>FitNFree Privacy Policy</h1>
-    <p class="meta">Effective date: October 8, 2026</p>
+    <p class="meta">Effective date: November 8, 2026</p>
 
     <nav class="legal-nav">
       <a href="privacy.html">Privacy Policy</a>
@@ -44,8 +44,46 @@
     <p>To provide the App's core features, we store the data you generate while using them: logged workouts, sets
     and duration, workout plans, streaks and challenge participation, habit check-ins, mood check-ins and journal
     notes, sleep logs (entered manually or synced from Oura, if you connect it), body weight/profile stats used to
-    calculate calorie and protein targets, and your history of AI Coach conversations and AI feature usage (exercise
-    explanations, nutrition lookups, scan results).</p>
+    calculate calorie and protein targets, your Body log (weight, body fat and measurements you enter), and your
+    history of AI Coach conversations and AI feature usage (exercise explanations, nutrition lookups, scan results).
+    Your personal records and badges are worked out on your phone from the sets you log; we do not store them as a
+    separate record. You can download a copy of what you have logged at any time from <strong>Profile → Export my
+    data</strong>.</p>
+
+    <h3>Body log and progress photos</h3>
+    <p>Weight, body fat and measurements you add to the Body log are stored in your account and are visible only to
+    you. <strong>Progress photos you add are stored only on your device.</strong> We never receive or upload them, and
+    they are not sent to our servers or to any AI service. Because they live only on your phone, they are removed if
+    you delete the app, and we cannot recover them. If your phone is included in your own iCloud or computer backup,
+    that backup belongs to you and we do not receive it.</p>
+
+    <h3>Reminders, widget and Apple Watch</h3>
+    <p>Workout reminders and the rest timer use notifications that your phone schedules on the device itself; your
+    reminder settings are stored only on your device and we do not send you push notifications from a server. The
+    iPhone home-screen widget and the Apple Watch app show your streak, which days this week you trained, your weekly
+    target and whether you trained today. This information moves only between your own iPhone and Apple Watch (the
+    watch app can ask your phone to log today's workout); it is not sent to us for these features, and the watch app
+    has no internet access of its own. Signing out clears it from the widget and the watch.</p>
+
+    <h3>Coaching check-ins with a trainer</h3>
+    <p>If you choose to link with a trainer using an invite code the trainer gives you, the answers you send in a
+    check-in (for example weight, energy, sleep, stress and notes) are shared with that trainer only, together with
+    any messages you exchange with them in the App. The trainer sees the name they typed for you, not your account
+    details. You can stop sharing at any time, after which the trainer can no longer see your check-ins (past ones
+    too), and you can delete your check-ins. They are deleted when you delete your account. If you are a trainer, the
+    check-in forms you create and the check-ins your linked clients send you are stored in your account.</p>
+
+    <h3>Friends (optional)</h3>
+    <p>Friends is off until you turn it on. If you turn it on, other FitNFree members who also turned it on can find
+    you by your display name and send you a friend request. Only people you accept see your updates, and only the kinds
+    you switch on: that you logged a workout, a streak milestone, or a personal record on an exercise from the App's
+    library. Your display name is the only text of yours that friends see; there are no posts or comments. You can turn
+    each kind off, delete anything you shared, or leave Friends at any time, which deletes your friendships, updates and
+    cheers. You can block or report anyone. We do not use this for advertising.</p>
+
+    <h3>Trainer profiles</h3>
+    <p>If you register as a trainer, the profile you create (such as your display name, bio, specialties and prices,
+    and any photos or videos you add to it) is visible to other FitNFree users so they can find and book you.</p>
 
     <h3>Photos and camera</h3>
     <p>If you use equipment scan, food photo scan, or AI form check, the App accesses your camera or photo library
@@ -70,14 +108,17 @@
 
     <h3>Location</h3>
     <p>If you grant location permission, we use it to support outdoor activity tracking (e.g. logging an outdoor
-    run or walk). Location is not collected unless you grant this permission, and you can revoke it at any time in
-    your device settings.</p>
+    run, walk or ride). Location is used only while the App is open on screen, not in the background. The route of an
+    activity you track is saved to your account so you can see it again, and is visible only to you. Location is not
+    collected unless you grant this permission, and you can revoke it at any time in your device settings.</p>
 
     <h3>Payment information</h3>
-    <p>Purchases (Premium subscription, one-time digital products, courses, merch, trainer plans) are processed by
-    Stripe. We never receive or store your full card number — Stripe handles payment details directly and shares
-    with us only what's needed to fulfil and support your order (e.g. purchase status, order type, shipping address
-    for merch).</p>
+    <p>Purchases of the Premium subscription made in the iPhone or iPad app are processed by Apple (the App Store),
+    and on Android by Google (Google Play). Apple and Google handle your payment details; we receive only what we need
+    to confirm your subscription (for example whether it is active and when it renews). Other purchases (one-time
+    digital products, courses, merch, trainer plans) and Premium bought on the web are processed by Stripe. We never
+    receive or store your full card number — Stripe handles payment details directly and shares with us only what's
+    needed to fulfil and support your order (e.g. purchase status, order type, shipping address for merch).</p>
 
     <h3>Wearable data (optional)</h3>
     <p>If you choose to connect an Oura Ring account, we receive sleep, readiness, and activity data from Oura's API
@@ -103,13 +144,17 @@
       <tr><th>Provider</th><th>What it's used for</th><th>Data involved</th></tr>
       <tr><td>Supabase</td><td>Database, authentication, backend hosting</td><td>All account and app data</td></tr>
       <tr><td>Anthropic (Claude)</td><td>AI Coach, scans, and other AI features</td><td>Text prompts, and photos you submit for scans</td></tr>
-      <tr><td>Stripe</td><td>Payments and subscriptions</td><td>Payment details, purchase/order metadata</td></tr>
+      <tr><td>Stripe</td><td>Payments and subscriptions (web, digital products, courses, merch, trainer plans)</td><td>Payment details, purchase/order metadata</td></tr>
+      <tr><td>Apple (App Store)</td><td>Premium subscription purchased in the iPhone/iPad app</td><td>Purchase and subscription status; Apple handles your payment details</td></tr>
+      <tr><td>Google (Google Play)</td><td>Premium subscription purchased in the Android app</td><td>Purchase and subscription status; Google handles your payment details</td></tr>
       <tr><td>Oura</td><td>Sleep and readiness data sync</td><td>Sleep, HRV, and activity data — only if you connect your account</td></tr>
       <tr><td>Printful</td><td>Merch order fulfilment and shipping</td><td>Shipping address and order details for merch purchases only</td></tr>
       <tr><td>USDA FoodData Central</td><td>Nutrition search results</td><td>Your search query only — no account data is sent</td></tr>
     </table>
     <p>We do not sell your personal information to any third party, and we do not share your data with anyone for
-    their own independent marketing purposes.</p>
+    their own independent marketing purposes. Beyond the providers above, your information is shared with other
+    people only when you choose it: a trainer you link with (check-ins and messages) or friends you accept (the
+    updates you switch on).</p>
 
     <h2>4. Data retention and deletion</h2>
     <p>We keep your data for as long as your account is active, so the App can keep working the way you expect. You
@@ -120,7 +165,8 @@
     <h2>5. Your rights</h2>
     <p>Depending on where you live, you may have rights to access, correct, export, or delete your personal data,
     and to object to or restrict certain processing. You can exercise most of these directly in the App (edit your
-    profile, delete individual logs, or delete your account outright); for anything else, contact us at
+    profile, delete individual logs, download a copy of your data from Profile → Export my data, or delete your
+    account outright); for anything else, contact us at
     <a href="mailto:teamlix6@gmail.com">teamlix6@gmail.com</a> and we'll respond within a reasonable time.</p>
 
     <h2>6. Children's privacy</h2>
